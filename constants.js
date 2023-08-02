@@ -1,3 +1,5 @@
+const landscape = require('./projects/landscape.json');
+
 const press = [
   {
     id: 'andrew-martin-international',
@@ -481,5 +483,6 @@ const projects = [
   }
 ];
 
+projects.push(landscape)
 exports.projects = projects;
 exports.press = press;
