@@ -36,7 +36,6 @@ Project.getInitialProps = async function (context) {
   let project = projects.find(el => el.id == id);
   if (!project) {
     project = projects[0];
-    console.log({ project });
   }
   return { id, project, lang };
 };
