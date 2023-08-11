@@ -483,6 +483,6 @@ const projects = [
   }
 ];
 
-projects.push(landscape)
+projects.unshift(landscape)
 exports.projects = projects;
 exports.press = press;

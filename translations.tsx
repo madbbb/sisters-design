@@ -21,7 +21,7 @@ export const strings = {
     ilona: 'Menshakova Ylona',
     copyright: (
       <p>
-        &copy; 2020 Sisters' Design. All rights reserved.
+        &copy; 2023 Sisters' Design. All rights reserved.
       </p>
     ),
     aboutText: (<div className="text">
@@ -76,7 +76,7 @@ export const strings = {
         на сайт <a href="//sisters-design.ru">sisters-design.ru</a> рядом с
         опубликованным материалом.
         <br />
-        &copy; 2020 Sisters' Design. Все права защищены.
+        &copy; 2023 Sisters' Design. Все права защищены.
       </p>
     ),
     aboutText: (<div className="text">
