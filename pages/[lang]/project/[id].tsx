@@ -3,6 +3,7 @@ import { projects } from '../../../constants';
 import LazyLoad from 'react-lazyload';
 import Projects from '../../../components/projects';
 import { strings } from '../../../translations';
+import React from "react";
 
 const Project = props => (
   <Layout title={props.project.name[props.lang]} lang={props.lang}>
@@ -15,8 +16,9 @@ const Project = props => (
       </div>
       <div className="main-photos__container">
         {props.project.images.map((el, i) => (
-          <LazyLoad key={i}>
-            <img
+          <LazyLoad key={i + props.project.name[props.lang]}>
+            <img key={i + props.project.name[props.lang]}
+                 id={i + props.project.name[props.lang]}
               className={el.includes('h') ? 'horizontal animated fadeInUp' : 'vertical animated fadeInUp'}
               src={`/projects/${props.project.id}/${el}`}
             />
