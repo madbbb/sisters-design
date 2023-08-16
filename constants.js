@@ -486,7 +486,7 @@ const projects = [
 ];
 
 projects.unshift(landscape)
-projects.unshift(sochi)
 projects.unshift(sochi2)
+projects.unshift(sochi)
 exports.projects = projects;
 exports.press = press;
