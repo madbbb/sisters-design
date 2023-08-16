@@ -1,4 +1,6 @@
 const landscape = require('./projects/landscape.json');
+const sochi = require('./projects/sochi2022.json');
+const sochi2 = require('./projects/sochi2022-1.json');
 
 const press = [
   {
@@ -484,5 +486,7 @@ const projects = [
 ];
 
 projects.unshift(landscape)
+projects.unshift(sochi2)
+projects.unshift(sochi)
 exports.projects = projects;
 exports.press = press;
